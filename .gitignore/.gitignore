@@ -1,0 +1,15 @@
+<script>
+	var test=new Array(3);				//创建的三个空数组
+	for (var i=0;i<=2;i++){				//for循环方式添加子数组
+		test[i]=new Array(2);			//每个数组元素中添加的子元素有两个数组
+	}
+	test[0][0]="星期一";					//添加主数组第一个元素的第一个子数组元素
+	test[0][1]="Monday";				//添加主数组第一个元素的第二个子数组元素
+	test[1][0]="星期二";					//添加主数组第二个元素的第一个子数组元素
+	test[1][1]="Tuesday";				//添加主数组第二个元素的第二个子数组元素
+	test[2][0]="星期三";					//添加主数组第三个元素的第一个子数组元素
+	test[2][1]="Wednesday";				//添加主数组第三个元素的第二个子数组元素
+	console.log(test);					//console.log方式打印数组
+	document.write(test);				//打印数组
+	alert(test);
+</script>
